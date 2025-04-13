@@ -5,7 +5,7 @@ export default async function Home() {
   const t = await getTranslations("init");
 
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center">
+    <section className="flex min-h-screen flex-col items-center justify-center bg-background">
       <Title>{t("title")}</Title>
       <Text>{t("description")}</Text>
     </section>
